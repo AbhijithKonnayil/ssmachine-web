@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
-import Nav from './nav';
+import Nav from './Nav.js';
 import '../css/header.css'
-import logo from '../img/logo.png';
+import logo from '../img/logo.jpeg';
 
 class Header extends Component {
     render() {
         return (
             <header>
-                <div class="header-area ">
-                    {/* <div class="header-top black-bg d-none d-md-block">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-6 col-md-6 col-lg-6">
-                                    <div class="header-contact">
-                                        <a href="#"><i class="fa fa-phone"></i> +880 256 356 256</a>
-                                        <a href="#"><i class="fa fa-envelope"></i> support24@durg.com</a>
+                <div className="header-area ">
+                    {/* <div className="header-top black-bg d-none d-md-block">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-xl-6 col-md-6 col-lg-6">
+                                    <div className="header-contact">
+                                        <a href="#"><i className="fa fa-phone"></i> +880 256 356 256</a>
+                                        <a href="#"><i className="fa fa-envelope"></i> support24@durg.com</a>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-md-6 col-lg-6">
-                                    <div class="header-top-menu">
+                                <div className="col-xl-6 col-md-6 col-lg-6">
+                                    <div className="header-top-menu">
                                         <nav>
                                             <ul>
                                                 <li><a href="blog.html">News & media</a></li>
@@ -31,11 +31,11 @@ class Header extends Component {
                             </div>
                         </div>
                     </div> */}
-                    <div id="sticky-header" class="main-header-area white-bg">
-                        <div class="container-lg ">
-                            <div class="row align-items-center">
-                                <div class="col-xl-2 col-lg-2">
-                                    <div class="logo-img">
+                    <div id="sticky-header" className="main-header-area white-bg">
+                        <div className="container-lg ">
+                            <div className="row align-items-center">
+                                <div className="col-xl-2 col-lg-2">
+                                    <div className="logo-img">
                                         <a href="index.html">
                                             <img src={logo} alt="" />
                                         </a>
@@ -43,8 +43,8 @@ class Header extends Component {
                                 </div>
                                 <Nav />
 
-                            <div class="mobile_menu d-block d-md-none">
-                                <span class="fa fa-fw fa-bars"></span>
+                            <div className="mobile_menu d-block d-md-none">
+                                <span className="fa fa-fw fa-bars"></span>
                             </div>
                             </div>
                         </div>
