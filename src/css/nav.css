@@ -97,12 +97,10 @@
   transform: scaleX(1);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .mobile_menu {
-      background-color: brown;
     position: absolute;
-    right: 0px;
-    width: 100%;
+    right: 20px;
     z-index: 9;
   }
 }

@@ -4,8 +4,8 @@ import '../css/nav.css'
 class Nav extends Component {
     render() {
         return (
-            <div class="col-lg-10">
-                <div class="main-menu d-none d-lg-block">
+            <div class="col-md-12 col-lg-10">
+                <div class="main-menu d-none d-md-block">
                     <nav>
                         <ul id="navigation">
                             <li><a class="active" href="index.html">Home</a></li>

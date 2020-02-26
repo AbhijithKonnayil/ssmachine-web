@@ -32,7 +32,7 @@ class Header extends Component {
                         </div>
                     </div> */}
                     <div id="sticky-header" class="main-header-area white-bg">
-                        <div class="container">
+                        <div class="container-lg ">
                             <div class="row align-items-center">
                                 <div class="col-xl-2 col-lg-2">
                                     <div class="logo-img">
@@ -42,9 +42,10 @@ class Header extends Component {
                                     </div>
                                 </div>
                                 <Nav />
-                                <div class="mobile_menu d-block d-lg-none">
-                                    <i class="fa fa-fw fa-bars"></i>
-                                </div>
+
+                            <div class="mobile_menu d-block d-md-none">
+                                <span class="fa fa-fw fa-bars"></span>
+                            </div>
                             </div>
                         </div>
                     </div>
