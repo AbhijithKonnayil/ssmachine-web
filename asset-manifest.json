@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ssmachine-web/static/css/main.d1b05096.chunk.css",
+    "main.js": "/ssmachine-web/static/js/main.dc7b03eb.chunk.js",
+    "main.js.map": "/ssmachine-web/static/js/main.dc7b03eb.chunk.js.map",
+    "runtime-main.js": "/ssmachine-web/static/js/runtime-main.c12cf11c.js",
+    "runtime-main.js.map": "/ssmachine-web/static/js/runtime-main.c12cf11c.js.map",
+    "static/js/2.f3946891.chunk.js": "/ssmachine-web/static/js/2.f3946891.chunk.js",
+    "static/js/2.f3946891.chunk.js.map": "/ssmachine-web/static/js/2.f3946891.chunk.js.map",
+    "index.html": "/ssmachine-web/index.html",
+    "precache-manifest.4ae4996201a0d8b0033cd65468d7a74a.js": "/ssmachine-web/precache-manifest.4ae4996201a0d8b0033cd65468d7a74a.js",
+    "service-worker.js": "/ssmachine-web/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/ssmachine-web/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.f3946891.chunk.js.LICENSE.txt": "/ssmachine-web/static/js/2.f3946891.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ssmachine-web/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c12cf11c.js",
+    "static/js/2.f3946891.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.dc7b03eb.chunk.js"
+  ]
+}
