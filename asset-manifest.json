@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ssmachine-web/static/css/main.c53092a5.chunk.css",
-    "main.js": "/ssmachine-web/static/js/main.4eb1937c.chunk.js",
-    "main.js.map": "/ssmachine-web/static/js/main.4eb1937c.chunk.js.map",
+    "main.css": "/ssmachine-web/static/css/main.a529fa34.chunk.css",
+    "main.js": "/ssmachine-web/static/js/main.60a4ae32.chunk.js",
+    "main.js.map": "/ssmachine-web/static/js/main.60a4ae32.chunk.js.map",
     "runtime-main.js": "/ssmachine-web/static/js/runtime-main.c12cf11c.js",
     "runtime-main.js.map": "/ssmachine-web/static/js/runtime-main.c12cf11c.js.map",
     "static/css/2.47e06e2e.chunk.css": "/ssmachine-web/static/css/2.47e06e2e.chunk.css",
     "static/js/2.7096562e.chunk.js": "/ssmachine-web/static/js/2.7096562e.chunk.js",
     "static/js/2.7096562e.chunk.js.map": "/ssmachine-web/static/js/2.7096562e.chunk.js.map",
     "index.html": "/ssmachine-web/index.html",
-    "precache-manifest.76e640322bb98ad9e78939801b09a90b.js": "/ssmachine-web/precache-manifest.76e640322bb98ad9e78939801b09a90b.js",
+    "precache-manifest.923a0666990665fab1931b5fe35afbb2.js": "/ssmachine-web/precache-manifest.923a0666990665fab1931b5fe35afbb2.js",
     "service-worker.js": "/ssmachine-web/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/ssmachine-web/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.c53092a5.chunk.css.map": "/ssmachine-web/static/css/main.c53092a5.chunk.css.map",
+    "static/css/main.a529fa34.chunk.css.map": "/ssmachine-web/static/css/main.a529fa34.chunk.css.map",
     "static/js/2.7096562e.chunk.js.LICENSE.txt": "/ssmachine-web/static/js/2.7096562e.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/ssmachine-web/static/media/logo.5d5d9eef.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.c12cf11c.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.7096562e.chunk.js",
-    "static/css/main.c53092a5.chunk.css",
-    "static/js/main.4eb1937c.chunk.js"
+    "static/css/main.a529fa34.chunk.css",
+    "static/js/main.60a4ae32.chunk.js"
   ]
 }
