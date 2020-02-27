@@ -10,7 +10,7 @@ class AboutSection extends Component {
                 </div>
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-xl-7 col-md-12 col-lg-6">
+                        <div class="col-xl-7 col-12 col-lg-6">
                             <div class="about-thumb">
                                 <img src={aboutImage} alt="" />
                             </div>

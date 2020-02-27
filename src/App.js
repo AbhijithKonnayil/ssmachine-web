@@ -6,12 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import Sliders from './components/Sliders';
 import AboutSection from './components/AboutSection';
+import ServiceSection from './components/ServiceSection';
 function App() {
   return (
     <div className="App">
       <Header/>
       <Sliders/>
       <AboutSection/>
+      <ServiceSection/>
     </div>
   );
 }
