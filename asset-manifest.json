@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/ssmachine-web/static/css/main.2117dc1c.chunk.css",
-    "main.js": "/ssmachine-web/static/js/main.0c5eeec2.chunk.js",
-    "main.js.map": "/ssmachine-web/static/js/main.0c5eeec2.chunk.js.map",
+    "main.css": "/ssmachine-web/static/css/main.f274bbce.chunk.css",
+    "main.js": "/ssmachine-web/static/js/main.ee2d5594.chunk.js",
+    "main.js.map": "/ssmachine-web/static/js/main.ee2d5594.chunk.js.map",
     "runtime-main.js": "/ssmachine-web/static/js/runtime-main.c12cf11c.js",
     "runtime-main.js.map": "/ssmachine-web/static/js/runtime-main.c12cf11c.js.map",
-    "static/css/2.47e06e2e.chunk.css": "/ssmachine-web/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.8516119e.chunk.js": "/ssmachine-web/static/js/2.8516119e.chunk.js",
-    "static/js/2.8516119e.chunk.js.map": "/ssmachine-web/static/js/2.8516119e.chunk.js.map",
+    "static/css/2.955b7bc7.chunk.css": "/ssmachine-web/static/css/2.955b7bc7.chunk.css",
+    "static/js/2.cbb1584f.chunk.js": "/ssmachine-web/static/js/2.cbb1584f.chunk.js",
+    "static/js/2.cbb1584f.chunk.js.map": "/ssmachine-web/static/js/2.cbb1584f.chunk.js.map",
     "index.html": "/ssmachine-web/index.html",
-    "precache-manifest.f935d64185cd9ac450fea1566416f9ac.js": "/ssmachine-web/precache-manifest.f935d64185cd9ac450fea1566416f9ac.js",
+    "precache-manifest.d625976474ddd8259791df09ebd632f3.js": "/ssmachine-web/precache-manifest.d625976474ddd8259791df09ebd632f3.js",
     "service-worker.js": "/ssmachine-web/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "/ssmachine-web/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.2117dc1c.chunk.css.map": "/ssmachine-web/static/css/main.2117dc1c.chunk.css.map",
-    "static/js/2.8516119e.chunk.js.LICENSE.txt": "/ssmachine-web/static/js/2.8516119e.chunk.js.LICENSE.txt",
+    "static/css/2.955b7bc7.chunk.css.map": "/ssmachine-web/static/css/2.955b7bc7.chunk.css.map",
+    "static/css/main.f274bbce.chunk.css.map": "/ssmachine-web/static/css/main.f274bbce.chunk.css.map",
+    "static/js/2.cbb1584f.chunk.js.LICENSE.txt": "/ssmachine-web/static/js/2.cbb1584f.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/ssmachine-web/static/media/logo.5d5d9eef.svg",
     "static/media/logo.jpeg": "/ssmachine-web/static/media/logo.e60fae51.jpeg",
-    "static/media/slider-img-1.jpg": "/ssmachine-web/static/media/slider-img-1.6c9f52cd.jpg"
+    "static/media/sliders.css": "/ssmachine-web/static/media/slider-img-1.6c9f52cd.jpg",
+    "static/media/slider-img-2.jpg": "/ssmachine-web/static/media/slider-img-2.ac36d299.jpg",
+    "static/media/slider-img-3.jpg": "/ssmachine-web/static/media/slider-img-3.bcd694e3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c12cf11c.js",
-    "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.8516119e.chunk.js",
-    "static/css/main.2117dc1c.chunk.css",
-    "static/js/main.0c5eeec2.chunk.js"
+    "static/css/2.955b7bc7.chunk.css",
+    "static/js/2.cbb1584f.chunk.js",
+    "static/css/main.f274bbce.chunk.css",
+    "static/js/main.ee2d5594.chunk.js"
   ]
 }
