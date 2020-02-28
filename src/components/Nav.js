@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 import '../css/nav.css'
 
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
+
 class Nav extends Component {
     render() {
         return (
@@ -25,9 +32,9 @@ class Nav extends Component {
                                     <li><a href="project-details.html">Trading</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Career <i className="ti-angle-down"></i></a></li>
+                            <li><Link to>Career </Link></li>
                             <li><a href="#">Enquiry<i className="ti-angle-down"></i></a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </nav>
                 </div>
