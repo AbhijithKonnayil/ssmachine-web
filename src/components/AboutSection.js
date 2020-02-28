@@ -5,12 +5,9 @@ class AboutSection extends Component {
     render() {
         return (
             <div class="about-area section-padding">
-                <div class="pattent-bg-img">
-                    <img src="img/about/pattern.png" alt="" />
-                </div>
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-xl-7 col-12 col-lg-6">
+                        <div class="col-xl-7 col-md-12 col-lg-6">
                             <div class="about-thumb">
                                 <img src={aboutImage} alt="" />
                             </div>

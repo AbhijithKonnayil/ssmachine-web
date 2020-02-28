@@ -9,12 +9,15 @@ class ServiceSection extends Component {
         return (
             <div class="service-area">
                 <div class="container">
-                    <div class="row align-items-center justify-content-center">
+                    <div class="row align-items-center ">
+                        <div className="col-md-12">
+                        
                         <div class="section-title text-center mb-65">
                             <span>OUR SERVICES</span>
                             <p class="para-text">
                             We believe customer satisfaction and quality services as a prime factor in our Technical Plan. Professional Field Device Service Managers / Engineers / Supervisors / Technicians understand the client requirements for each application and purpose then propose solutions for each unique need.
                             </p>
+                        </div>
                         </div>
                     </div>
                     <div class="row">
