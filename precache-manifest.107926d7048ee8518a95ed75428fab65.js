@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca56ed4542e0f550e6f0903bd89b5fc6",
+    "revision": "c3ff061b5b7138f64f8597b68d293a9e",
     "url": "/ssmachine-web/index.html"
   },
   {
-    "revision": "c5de65f153a0eee1fad4",
-    "url": "/ssmachine-web/static/css/2.955b7bc7.chunk.css"
+    "revision": "1063969dad72efd9a72f",
+    "url": "/ssmachine-web/static/css/2.bde0b1f8.chunk.css"
   },
   {
-    "revision": "ca5321bb6f0ae9976af7",
-    "url": "/ssmachine-web/static/css/main.0bd3a2b9.chunk.css"
+    "revision": "849b0ef7199f36c6df28",
+    "url": "/ssmachine-web/static/css/main.9a550776.chunk.css"
   },
   {
-    "revision": "c5de65f153a0eee1fad4",
-    "url": "/ssmachine-web/static/js/2.c08d6495.chunk.js"
+    "revision": "1063969dad72efd9a72f",
+    "url": "/ssmachine-web/static/js/2.92f4257a.chunk.js"
   },
   {
-    "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
-    "url": "/ssmachine-web/static/js/2.c08d6495.chunk.js.LICENSE.txt"
+    "revision": "928d7b5eb39d16fe9a880722c974b51e",
+    "url": "/ssmachine-web/static/js/2.92f4257a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca5321bb6f0ae9976af7",
-    "url": "/ssmachine-web/static/js/main.3f5232a4.chunk.js"
+    "revision": "849b0ef7199f36c6df28",
+    "url": "/ssmachine-web/static/js/main.cb2bc6e2.chunk.js"
   },
   {
     "revision": "a68d9a2783486d64e6cf",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4145bbbc7c26a38898c9dbeb64c3c886",
     "url": "/ssmachine-web/static/media/about.4145bbbc.jpg"
+  },
+  {
+    "revision": "a1b0be97cdb4dd03ef972048fb8df014",
+    "url": "/ssmachine-web/static/media/footer-pattern.a1b0be97.png"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
