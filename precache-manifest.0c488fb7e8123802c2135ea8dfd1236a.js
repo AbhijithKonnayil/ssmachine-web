@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3ff061b5b7138f64f8597b68d293a9e",
+    "revision": "f3a423f303fa47ffb8ad37f3f7bfe7f5",
     "url": "/ssmachine-web/index.html"
   },
   {
-    "revision": "1063969dad72efd9a72f",
-    "url": "/ssmachine-web/static/css/2.bde0b1f8.chunk.css"
+    "revision": "0b55ef08d0af185e98ac",
+    "url": "/ssmachine-web/static/css/2.955b7bc7.chunk.css"
   },
   {
-    "revision": "849b0ef7199f36c6df28",
-    "url": "/ssmachine-web/static/css/main.9a550776.chunk.css"
+    "revision": "aa1033927878cddcbf25",
+    "url": "/ssmachine-web/static/css/main.1101e6b8.chunk.css"
   },
   {
-    "revision": "1063969dad72efd9a72f",
-    "url": "/ssmachine-web/static/js/2.92f4257a.chunk.js"
+    "revision": "0b55ef08d0af185e98ac",
+    "url": "/ssmachine-web/static/js/2.8840fa10.chunk.js"
   },
   {
-    "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/ssmachine-web/static/js/2.92f4257a.chunk.js.LICENSE.txt"
+    "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
+    "url": "/ssmachine-web/static/js/2.8840fa10.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "849b0ef7199f36c6df28",
-    "url": "/ssmachine-web/static/js/main.cb2bc6e2.chunk.js"
+    "revision": "aa1033927878cddcbf25",
+    "url": "/ssmachine-web/static/js/main.f27d0f5d.chunk.js"
   },
   {
     "revision": "a68d9a2783486d64e6cf",

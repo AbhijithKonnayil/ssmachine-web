@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ssmachine-web/static/css/main.9a550776.chunk.css",
-    "main.js": "/ssmachine-web/static/js/main.cb2bc6e2.chunk.js",
-    "main.js.map": "/ssmachine-web/static/js/main.cb2bc6e2.chunk.js.map",
+    "main.css": "/ssmachine-web/static/css/main.1101e6b8.chunk.css",
+    "main.js": "/ssmachine-web/static/js/main.f27d0f5d.chunk.js",
+    "main.js.map": "/ssmachine-web/static/js/main.f27d0f5d.chunk.js.map",
     "runtime-main.js": "/ssmachine-web/static/js/runtime-main.c12cf11c.js",
     "runtime-main.js.map": "/ssmachine-web/static/js/runtime-main.c12cf11c.js.map",
-    "static/css/2.bde0b1f8.chunk.css": "/ssmachine-web/static/css/2.bde0b1f8.chunk.css",
-    "static/js/2.92f4257a.chunk.js": "/ssmachine-web/static/js/2.92f4257a.chunk.js",
-    "static/js/2.92f4257a.chunk.js.map": "/ssmachine-web/static/js/2.92f4257a.chunk.js.map",
+    "static/css/2.955b7bc7.chunk.css": "/ssmachine-web/static/css/2.955b7bc7.chunk.css",
+    "static/js/2.8840fa10.chunk.js": "/ssmachine-web/static/js/2.8840fa10.chunk.js",
+    "static/js/2.8840fa10.chunk.js.map": "/ssmachine-web/static/js/2.8840fa10.chunk.js.map",
     "index.html": "/ssmachine-web/index.html",
-    "precache-manifest.107926d7048ee8518a95ed75428fab65.js": "/ssmachine-web/precache-manifest.107926d7048ee8518a95ed75428fab65.js",
+    "precache-manifest.0c488fb7e8123802c2135ea8dfd1236a.js": "/ssmachine-web/precache-manifest.0c488fb7e8123802c2135ea8dfd1236a.js",
     "service-worker.js": "/ssmachine-web/service-worker.js",
-    "static/css/2.bde0b1f8.chunk.css.map": "/ssmachine-web/static/css/2.bde0b1f8.chunk.css.map",
-    "static/css/main.9a550776.chunk.css.map": "/ssmachine-web/static/css/main.9a550776.chunk.css.map",
-    "static/js/2.92f4257a.chunk.js.LICENSE.txt": "/ssmachine-web/static/js/2.92f4257a.chunk.js.LICENSE.txt",
+    "static/css/2.955b7bc7.chunk.css.map": "/ssmachine-web/static/css/2.955b7bc7.chunk.css.map",
+    "static/css/main.1101e6b8.chunk.css.map": "/ssmachine-web/static/css/main.1101e6b8.chunk.css.map",
+    "static/js/2.8840fa10.chunk.js.LICENSE.txt": "/ssmachine-web/static/js/2.8840fa10.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/ssmachine-web/static/media/1.f12d4415.jpg",
     "static/media/2.jpg": "/ssmachine-web/static/media/2.986a43ce.jpg",
     "static/media/3.jpg": "/ssmachine-web/static/media/3.d9831016.jpg",
@@ -27,9 +27,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c12cf11c.js",
-    "static/css/2.bde0b1f8.chunk.css",
-    "static/js/2.92f4257a.chunk.js",
-    "static/css/main.9a550776.chunk.css",
-    "static/js/main.cb2bc6e2.chunk.js"
+    "static/css/2.955b7bc7.chunk.css",
+    "static/js/2.8840fa10.chunk.js",
+    "static/css/main.1101e6b8.chunk.css",
+    "static/js/main.f27d0f5d.chunk.js"
   ]
 }
