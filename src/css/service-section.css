@@ -30,10 +30,11 @@
     font-weight: 400;
     font-size: 16px;
     display: inline-block;
+    margin-bottom: 30px;
   }
   .service-area .single-service a:hover {
     text-decoration: underline;
-    color: #ff5e13;
+    color: #0060ac;
   }
   @media (max-width: 767px) {
     .service-area .single-service {

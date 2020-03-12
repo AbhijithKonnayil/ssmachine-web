@@ -10,8 +10,8 @@ class TilesList extends Component {
                     <div class="col-12 col-sm-12 col-lg-12">
                         <div class="text-white mb-65 ml-80 ">
                             <h3>Brands we are Specialized in</h3>
-                            <Tile title="Rolls Royce"/>
-                            <Tile title="Bentley"/>
+                            <Tile title="Rolls Royce" image=""/>
+                            <Tile title="Bentley" image=""/>
                             <Tile title="Aston Martin"/>
                             <Tile title="Mitsubishi Motors"/>
                             <Tile title="Ford"/>

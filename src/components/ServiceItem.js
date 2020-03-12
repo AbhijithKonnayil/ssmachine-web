@@ -5,12 +5,12 @@ class ServiceItem extends Component {
     render() {
         return (
             <div className="col-xl-4 col-md-4">
-                            <div class="single-service">
+                            <div class="single-service text-left">
                                 <div class="service-thumb">
                                     <img src={this.props.image} alt=""/>
                                 </div>
                                 <h3>{this.props.title}</h3>
-                                <p>Waters make fish every without firmament saw had. Morning air subdue.</p>
+                                <p>{this.props.description}</p>
                                 <a href="#" class="read-more">Read More</a>
                             </div>
                         </div>

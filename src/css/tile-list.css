@@ -13,15 +13,25 @@
 
   }
   .brand-tile div{
-    height: 150px;
     border-radius: 30px;
     background-color: #ffffff;
-
+    padding: 50px 10px;
   }
-  .brand-tile div:hover {
-    background-color: #ff0000;
+  .brand-tile div img{
+      height: 70px;
+      width: auto;
   }
   .brand-tile h6{
+      top: 0;
+      margin: auto;
+      position: absolute;
+      display: none;
       padding: 10px 3px;
-      color: crimson;
+      
   }
+
+  .brand-tile:hover h6{
+    display: block;
+    color: #333;
+    
+}

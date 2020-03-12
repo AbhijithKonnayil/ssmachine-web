@@ -30,7 +30,7 @@
   opacity: 0.2;
 }
 .slider-area .single-slider .slider-content {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
   padding: 73px 56px 73px 50px;
   position: relative;
   z-index: 9;

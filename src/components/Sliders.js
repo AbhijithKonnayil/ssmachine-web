@@ -20,9 +20,9 @@ class Sliders extends Component {
         return (
             <div className="slider-area">
                 <Slide {...properties}>
-                    <Slider index="0"/>
-                    <Slider index="1"/>
-                    <Slider index="2"/>
+                    <Slider index="0" text1="We are experts in" text2="Quality Car Maintance"/>
+                    <Slider index="1" text2="Quality work. Trustable service. Dedicated team"/>
+                    <Slider index="2"text2="We are specialized in European car service and repair"/>
                 </Slide>
             </div>
         );
