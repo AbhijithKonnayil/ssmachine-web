@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f3a423f303fa47ffb8ad37f3f7bfe7f5",
+    "revision": "7d285dc5a3ede12f97de982df3c36731",
     "url": "/ssmachine-web/index.html"
   },
   {
-    "revision": "0b55ef08d0af185e98ac",
-    "url": "/ssmachine-web/static/css/2.955b7bc7.chunk.css"
+    "revision": "dadc12134e14be2b6f69",
+    "url": "/ssmachine-web/static/css/2.c95cd976.chunk.css"
   },
   {
-    "revision": "aa1033927878cddcbf25",
-    "url": "/ssmachine-web/static/css/main.1101e6b8.chunk.css"
+    "revision": "f3be7cbe1d840d58e042",
+    "url": "/ssmachine-web/static/css/main.5b8b8f06.chunk.css"
   },
   {
-    "revision": "0b55ef08d0af185e98ac",
-    "url": "/ssmachine-web/static/js/2.8840fa10.chunk.js"
+    "revision": "dadc12134e14be2b6f69",
+    "url": "/ssmachine-web/static/js/2.aa6c7617.chunk.js"
   },
   {
-    "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
-    "url": "/ssmachine-web/static/js/2.8840fa10.chunk.js.LICENSE.txt"
+    "revision": "928d7b5eb39d16fe9a880722c974b51e",
+    "url": "/ssmachine-web/static/js/2.aa6c7617.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aa1033927878cddcbf25",
-    "url": "/ssmachine-web/static/js/main.f27d0f5d.chunk.js"
+    "revision": "f3be7cbe1d840d58e042",
+    "url": "/ssmachine-web/static/js/main.4f269b74.chunk.js"
   },
   {
     "revision": "a68d9a2783486d64e6cf",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ssmachine-web/static/media/about.4145bbbc.jpg"
   },
   {
+    "revision": "f130e3f64b9fb3e1aa46c7da4efc842d",
+    "url": "/ssmachine-web/static/media/bg-img-2.f130e3f6.jpg"
+  },
+  {
     "revision": "a1b0be97cdb4dd03ef972048fb8df014",
     "url": "/ssmachine-web/static/media/footer-pattern.a1b0be97.png"
   },
@@ -60,11 +64,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ssmachine-web/static/media/slider-img-1.6c9f52cd.jpg"
   },
   {
-    "revision": "ac36d2996ee7ff6ca68e9fd497117ae3",
-    "url": "/ssmachine-web/static/media/slider-img-2.ac36d299.jpg"
+    "revision": "dea1407398002903b137a1c9fa1ca08c",
+    "url": "/ssmachine-web/static/media/slider-img-2.dea14073.jpg"
   },
   {
-    "revision": "bcd694e3d97d57aafa723d2a0e2cb4c5",
-    "url": "/ssmachine-web/static/media/slider-img-3.bcd694e3.jpg"
+    "revision": "e93e41448c97272d467914518cc1088e",
+    "url": "/ssmachine-web/static/media/slider-img-3.e93e4144.jpg"
   }
 ]);
