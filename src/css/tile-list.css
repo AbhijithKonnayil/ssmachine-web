@@ -1,0 +1,27 @@
+.bg-img-2 {
+    background-image: url(../img/background-img/bg-img-2.jpg);
+  }
+  .brand-area{
+        padding-top: 70px;
+        padding-bottom: 120px;
+  }
+
+
+  .brand-tile{
+    float: left;
+    padding: 10px;
+
+  }
+  .brand-tile div{
+    height: 150px;
+    border-radius: 30px;
+    background-color: #ffffff;
+
+  }
+  .brand-tile div:hover {
+    background-color: #ff0000;
+  }
+  .brand-tile h6{
+      padding: 10px 3px;
+      color: crimson;
+  }

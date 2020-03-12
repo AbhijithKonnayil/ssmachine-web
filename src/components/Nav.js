@@ -15,7 +15,7 @@ class Nav extends Component {
                 <div className="main-menu d-none d-md-block">
                     <nav>
                         <ul id="navigation">
-                            <li><a className="active" href="index.html">Home</a></li>
+                            <li><a className="active" href="/">Home</a></li>
                             <li><a href="about.html">About</a></li>
                             <li><a href="service.html">Services</a>
                                 <ul className="submenu">
@@ -32,9 +32,9 @@ class Nav extends Component {
                                     <li><a href="project-details.html">Trading</a></li>
                                 </ul>
                             </li>
-                            <li><Link to>Career </Link></li>
+                            <li><a href="">Career</a></li>
                             <li><a href="#">Enquiry<i className="ti-angle-down"></i></a></li>
-                            <li><Link to="/contact">Contact</Link></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
