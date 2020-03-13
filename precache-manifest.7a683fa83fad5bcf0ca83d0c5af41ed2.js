@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c21158b318ea73fbd8a2559a07cb7197",
+    "revision": "99a26abdf4812f30bba77ac06ee889d7",
     "url": "/ssmachine-web/index.html"
   },
   {
-    "revision": "c649cf9a2ef7d075da74",
-    "url": "/ssmachine-web/static/css/2.955b7bc7.chunk.css"
+    "revision": "3a05e4a10dd0752eea24",
+    "url": "/ssmachine-web/static/css/2.c95cd976.chunk.css"
   },
   {
-    "revision": "5494170bef12a1884e3a",
-    "url": "/ssmachine-web/static/css/main.b81f8491.chunk.css"
+    "revision": "043cbfb2f302726d9309",
+    "url": "/ssmachine-web/static/css/main.50f40a4a.chunk.css"
   },
   {
-    "revision": "c649cf9a2ef7d075da74",
-    "url": "/ssmachine-web/static/js/2.35436eaf.chunk.js"
+    "revision": "3a05e4a10dd0752eea24",
+    "url": "/ssmachine-web/static/js/2.cdf22260.chunk.js"
   },
   {
     "revision": "94b29ac6d0ec426932e82da99c88b81c",
-    "url": "/ssmachine-web/static/js/2.35436eaf.chunk.js.LICENSE.txt"
+    "url": "/ssmachine-web/static/js/2.cdf22260.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5494170bef12a1884e3a",
-    "url": "/ssmachine-web/static/js/main.4d4cd5b3.chunk.js"
+    "revision": "043cbfb2f302726d9309",
+    "url": "/ssmachine-web/static/js/main.08a2c619.chunk.js"
   },
   {
     "revision": "a68d9a2783486d64e6cf",
@@ -32,8 +32,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ssmachine-web/static/media/1.0ed5ea31.jpg"
   },
   {
+    "revision": "7b9e95d80136bf113b16060159bf34fe",
+    "url": "/ssmachine-web/static/media/1.7b9e95d8.jpg"
+  },
+  {
+    "revision": "3b224cc81608fe5fb63ed646962de758",
+    "url": "/ssmachine-web/static/media/2.3b224cc8.jpg"
+  },
+  {
     "revision": "e3bfb3a9191167c3bd7af0b2024b8f1a",
     "url": "/ssmachine-web/static/media/2.e3bfb3a9.jpg"
+  },
+  {
+    "revision": "0e88f769b16c5dfba40f831718552416",
+    "url": "/ssmachine-web/static/media/3.0e88f769.jpg"
   },
   {
     "revision": "cb2381cb31a502b4f9a1b5249fb515ee",
@@ -42,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8596f861751387fd8e568fd08ef9d526",
     "url": "/ssmachine-web/static/media/4.8596f861.jpg"
+  },
+  {
+    "revision": "ecfa0217d599220ae312f59d1d221d3d",
+    "url": "/ssmachine-web/static/media/4.ecfa0217.jpg"
   },
   {
     "revision": "efa89ecc2c8a87db6979be73bf3550a0",
@@ -130,6 +146,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e60fae5137cb30b5e4930d53bfe0404a",
     "url": "/ssmachine-web/static/media/logo.e60fae51.jpeg"
+  },
+  {
+    "revision": "38d65e77fa9937e8b6d57a76c97461d3",
+    "url": "/ssmachine-web/static/media/maserati.38d65e77.png"
   },
   {
     "revision": "98d64642b4d80e0be58ed9a80da1b0c1",
