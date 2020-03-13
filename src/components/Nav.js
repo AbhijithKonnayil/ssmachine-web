@@ -16,8 +16,8 @@ class Nav extends Component {
                     <nav>
                         <ul id="navigation">
                             <li><a className="active" href="/">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="service.html">Services</a>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/service">Services</a>
                                 <ul className="submenu">
                                     <li><a href="elements.html">Pipe Freeze Plugging - Pipe Freezing</a></li>
                                     <li><a href="service-details.html">Repair Service Maintenance</a></li>
