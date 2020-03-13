@@ -55,4 +55,4 @@ class TilesList extends Component {
     }
 }
 
-export default TilesList;
+export {TilesList,importAll};

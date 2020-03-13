@@ -1,0 +1,28 @@
+.why-us-area{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.why-us-item{
+    position: relative;
+    height: 300px;
+    margin: 10px;
+    background-size: cover;
+}
+.why-us-item div{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    color: #ffffff;
+    background-color: rgba(0,96,172,0.8);
+}
+.why-us-item h3 {
+    margin-top: 5px;
+    font-size: 24px;
+  }
+.why-us-item p {
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
