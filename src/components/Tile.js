@@ -5,8 +5,7 @@ class Tile extends Component {
         return (
             <div className="col-sm-6 col-md-4 col-lg-3 col-xl-2 brand-tile">
                 <div className="col-12 col-sm-12 text-right">
-                    <h6>{this.props.title}</h6>
-                    <img src="" />
+                    <img src={this.props.image} />
                 </div>
             </div>
         );

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/about-section.css';
-import aboutImage from '../img/about.jpg';
+import aboutImage from '../img/about.png';
 class AboutSection extends Component {
     render() {
         return (
