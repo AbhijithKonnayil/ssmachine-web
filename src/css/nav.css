@@ -30,7 +30,7 @@
     display: none !important;
   }
 }
-.main-menu ul li a.active::before {
+.main-menu ul li a::before {
   position: absolute;
   content: "";
   background: #0060ac;
