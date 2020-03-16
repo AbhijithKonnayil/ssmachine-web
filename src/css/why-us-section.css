@@ -2,10 +2,12 @@
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.why-us-item-container{
+    margin-bottom: 30px;
+}
 .why-us-item{
     position: relative;
     height: 300px;
-    margin: 10px;
     background-size: cover;
 }
 .why-us-item div{
