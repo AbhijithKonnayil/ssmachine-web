@@ -41,7 +41,7 @@ class Header extends Component {
                                         </a>
                                     </div>
                                 </div>
-                                <Nav active="home"/>
+                                <Nav/>
 
                             <div className="mobile_menu d-block d-md-none">
                                 <span className="fa fa-fw fa-bars"></span>
