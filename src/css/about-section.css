@@ -63,13 +63,3 @@
   width: 100%;
 }
 
-a.boxed-btn{
-  padding: 10px 20px;
-  background-color: #0060ac;
-  color: #fff;
-}
-
-a.boxed-btn:hover{
-  background-color: #0f6ebd;
-  text-decoration: none;
-}
