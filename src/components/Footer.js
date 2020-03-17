@@ -32,7 +32,8 @@ class Footer extends Component {
                                             <p>Tel   : +971 4 2858758<br />
                                             Fax  : +971 4 2856608<br />
                                             Email : info@ssmachin.com<br />
-                                            ssmech@eim.ae
+                                            ssmech@eim.ae<br />
+                                            sevenseasauto@ssmachin.com
                                             </p>
                                         </li>
                                     </ul>

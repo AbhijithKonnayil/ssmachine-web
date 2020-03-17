@@ -5,6 +5,10 @@
     margin-bottom: 55px;
     font-size: 16px;
     text-align: left;
+  
+  }
+  .section-title{
+    
   }
 
   .section-title h3 {
@@ -30,8 +34,8 @@
       display: none;
     }
   }
-  .section-title span {
-    font-size: 20px;
+  .title span {
+    font-size: 16px;
     color: #0060ac;
     font-family: "Rubik", sans-serif;
     font-weight: 400;
@@ -39,13 +43,7 @@
     display: block;
     text-transform: uppercase;
   }
-  .section-title .para-text {
-    color: #5c5c5c;
-    font-weight: 400;
-    margin-top: 25px;
-    margin-bottom: 55px;
-    font-size: 16px;
-  }
+  
   .section-title.text-white h3 {
     color: #fff;
   }
