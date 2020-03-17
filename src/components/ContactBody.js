@@ -5,50 +5,33 @@ import axios from 'axios';
 class ContactBody extends Component {
     constructor(props) {
         super(props);
+        this.submitForm = this.submitForm.bind(this);
         this.state = {
-            name: '',
-            email: '',
-            message: '',
-            subject:''
+            status: '',
         }
     }
-    onNameChange(event) {
-        this.setState({ name: event.target.value })
-    }
 
-    onEmailChange(event) {
-        this.setState({ email: event.target.value })
-    }
-
-    onMessageChange(event) {
-        this.setState({ message: event.target.value })
-    }
-    onSubjectChange(event) {
-        this.setState({ subject: event.target.value })
-    }
-
-    handleSubmit(e) {
-        e.preventDefault();
-
-        axios({
-            method: "POST",
-            url: "http://localhost:3002/send",
-            data: this.state
-        }).then((response) => {
-            if (response.data.status === 'success') {
-                alert("Message Sent.");
-                this.resetForm()
-            } else if (response.data.status === 'fail') {
-                alert("Message failed to send.")
+    submitForm(ev) {
+        ev.preventDefault();
+        const form = ev.target;
+        const data = new FormData(form);
+        const xhr = new XMLHttpRequest();
+        xhr.open(form.method, form.action);
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.onreadystatechange = () => {
+            if (xhr.readyState !== XMLHttpRequest.DONE) return;
+            if (xhr.status === 200) {
+                form.reset();
+                this.setState({ status: "SUCCESS" });
+            } else {
+                this.setState({ status: "ERROR" });
             }
-        })
+        };
+        xhr.send(data);
     }
 
-    resetForm(){
-    
-        this.setState({name: '', email: '', message: ''})
-     }
     render() {
+        const { status } = this.state;
         return (
             <div className="container">
                 <div className="row">
@@ -67,53 +50,56 @@ class ContactBody extends Component {
                         <h2 class="contact-title">Get in Touch</h2>
                     </div>
                     <div class="col-lg-8">
-                        <form class="form-contact contact_form" onSubmit={this.handleSubmit.bind(this)} method="post" enctype="text/plain" id="contactForm" novalidate="novalidate">
+                        <form action="https://formspree.io/moqlwegj" method="post"
+                            class="form-contact contact_form" onSubmit={this.submitForm}
+                            enctype="text/plain" id="contactForm" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
-
                                         <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
-                                        onfocus="this.placeholder = ''" 
-                                        onblur="this.placeholder = 'Enter Message'"
-                                        onChange={this.onMessageChange.bind(this)}
-                                        value={this.state.message}
-                                        placeholder="Enter your Message"></textarea>
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Enter Message'"
+                                            placeholder="Enter your Message"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <input class="form-control valid" name="name" id="name" type="text"
-                                        onfocus="this.placeholder = ''"
-                                        onblur="this.placeholder = 'Enter your name'"
-                                        onChange={this.onNameChange.bind(this)}
-                                        value={this.state.name}
-                                        placeholder="Enter your name" />
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Enter your name'"
+                                            placeholder="Enter your name" />
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input class="form-control valid" name="email" id="email" type="email" 
-                                        onfocus="this.placeholder = ''" 
-                                        onblur="this.placeholder = 'Enter email address'" 
-                                        placeholder="Email"
-                                        onChange={this.onEmailChange.bind(this)}
-                                        value={this.state.email}/>
+                                        <input class="form-control valid" name="phone" id="phone" type="text"
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Enter your Phone'"
+                                            placeholder="Enter your Phone" />
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input class="form-control" name="subject" id="subject" type="text" 
-                                        onfocus="this.placeholder = ''" 
-                                        onblur="this.placeholder = 'Enter Subject'" 
-                                        placeholder="Enter Subject" 
-                                        onChange={this.onSubjectChange.bind(this)}
-                                        value={this.state.subject}
+                                        <input class="form-control valid" name="email" id="email" type="email"
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Enter email address'"
+                                            placeholder="Email" />
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control" name="subject" id="subject" type="text"
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Enter Subject'"
+                                            placeholder="Enter Subject"
                                         />
                                     </div>
                                 </div>
                             </div>
+
                             <div class="form-group mt-3">
-                                <input type="submit" class="boxed-btn" />
+                                {status === "SUCCESS" ? <p>Thanks! </p> : <input type="submit" class="boxed-btn" />}
+                                {status === "ERROR" && <p>Ooops! There was an error.</p>}
                             </div>
                         </form>
                     </div>
