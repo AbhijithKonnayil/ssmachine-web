@@ -13,6 +13,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import ServicePage from './pages/ServicePage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={HomePage}/>
         <Route exact path="/about" component={AboutPage}/>
+        <Route exact path="/service" component={ServicePage}/>
         <Route exact path="/contact" component={ContactPage}/>
       </Switch>
     </Router>
