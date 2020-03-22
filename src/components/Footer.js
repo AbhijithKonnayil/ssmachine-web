@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/footer.css';
+import logo from '../img/logo.jpeg'; 
 
 class Footer extends Component {
     render() {
@@ -9,9 +10,8 @@ class Footer extends Component {
                     <div class="row justify-content-between">
                         <div class="col-sm-12 col-md-4 col-l-4">
                             <div class="single-footer-widget footer_1">
-                                <a href="index.html"> <img src="img/footer-logo.png" alt="" /> </a>
-                                <p>Waters make fish every without firmament saw had. Morning air subdue very one. Whales grass
-                                is fish whales winged.</p>
+                                <a href="index.html"> <img src={logo} alt="" /> </a>
+                                <p>One stop solution for all your automobile service needs</p>
                                 <div class="social-links">
                                     <ul>
                                         <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
