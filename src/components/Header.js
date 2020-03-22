@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import Nav from './Nav.js';
-import '../css/header.css'
-import logo from '../img/logo.jpeg';
+import React, { Component } from "react";
+import Nav from "./Nav.js";
+import "../css/header.css";
+import logo from "../img/logo.jpeg";
 
 class Header extends Component {
-    render() {
-        return (
-            <header>
-                <div className="header-area ">
-                    {/* <div className="header-top black-bg d-none d-md-block">
+  render() {
+    return (
+      <header>
+        <div className="header-area ">
+          {/* <div className="header-top black-bg d-none d-md-block">
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-6 col-md-6 col-lg-6">
@@ -31,28 +31,28 @@ class Header extends Component {
                             </div>
                         </div>
                     </div> */}
-                    <div id="sticky-header" className="main-header-area white-bg">
-                        <div className="container-lg ">
-                            <div className="row align-items-center">
-                                <div className="col-xl-2 col-lg-2">
-                                    <div className="logo-img">
-                                        <a href="index.html">
-                                            <img src={logo} alt="" />
-                                        </a>
-                                    </div>
-                                </div>
-                                <Nav/>
-
-                            <div className="mobile_menu d-block d-md-none">
-                                <span className="fa fa-fw fa-bars"></span>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
+          <div id="sticky-header" className="main-header-area white-bg">
+            <div className="container-lg ">
+              <div className="row align-items-center">
+                <div className="col-xl-2 col-lg-2">
+                  <div className="logo-img">
+                    <a href="index.html">
+                      <img src={logo} alt="" />
+                    </a>
+                  </div>
                 </div>
-            </header>
-        );
-    }
+                <Nav />
+
+                <div className="mobile_menu d-block d-md-none">
+                  <span className="fa fa-fw fa-bars"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    );
+  }
 }
 
 export default Header;
