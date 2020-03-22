@@ -1,8 +1,14 @@
 import React, { Component } from "react";
 import "../css/sliders.css";
 import Slider from "./Slider";
-import SliderImage1 from "../img/slider/slider-img-1.jpg";
 import { Slide } from "react-slideshow-image";
+
+import SliderImage1 from "../img/slider/slider-img-1.jpg";
+import SliderImage2 from "../img/slider/slider-img-2.jpg";
+import SliderImage3 from "../img/slider/slider-img-3.jpg";
+
+const slideImages = [SliderImage1, SliderImage2, SliderImage3];
+
 
 const properties = {
   duration: 5000,
@@ -15,7 +21,30 @@ const properties = {
   }
 };
 
-class Sliders extends Component {
+export default class Sliders extends Component {
+  render() {
+    return (
+      <div className="slider-area">
+        <div className="single-slider"
+          style={{
+            backgroundImage: "url(" + slideImages[Math.floor(Math.random() * 3)] + ")"
+          }}
+        >
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-7  col-lg-7">
+                <div className="slider-content">
+                  <h3>{this.props.pagename}</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+class SlidersHome extends Component {
   render() {
     return (
       <div className="slider-area">
@@ -39,4 +68,4 @@ class Sliders extends Component {
   }
 }
 
-export default Sliders;
+export {SlidersHome};

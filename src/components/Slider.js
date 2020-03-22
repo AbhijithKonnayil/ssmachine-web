@@ -20,11 +20,7 @@ class Slider extends Component {
               <div className="slider-content">
                 <p>{this.props.text1}</p>
                 <h3>{this.props.text2}</h3>
-                {/* <div className="slider-btn">
-                                    <a className="boxed-btn2" href="#">Our Services <i
-                                            className="Flaticon flaticon-right-arrow"></i></a>
-                                </div> */}
-              </div>
+               </div>
             </div>
           </div>
         </div>

@@ -15,7 +15,7 @@ function ServicePage() {
   return (
     <div className="App">
       <Header />
-      <Sliders />
+      <Sliders pagename="Service"/>
       <ServiceSectionServicePage />
       <Footer />
     </div>

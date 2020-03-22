@@ -10,7 +10,7 @@ function ContactPage() {
   return (
     <div className="App">
       <Header />
-      <Sliders />
+      <Sliders pagename="Contact Us"/>
       <ContactBody />
       <Footer />
     </div>

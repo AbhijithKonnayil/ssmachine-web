@@ -28,11 +28,6 @@ class Nav extends Component {
               </li>
               <li>
                 <NavLink to="/service">Services</NavLink>
-                {/*<ul className="submenu">
-                                    <li><a href="elements.html">Pipe Freeze Plugging - Pipe Freezing</a></li>
-                                    <li><a href="service-details.html">Repair Service Maintenance</a></li>
-                                    <li><a href="project-details.html">Trading</a></li>
-        </ul>*/}
               </li>
               <li>
                 <a href="#">
