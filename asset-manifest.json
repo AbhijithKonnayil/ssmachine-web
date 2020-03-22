@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ssmachine-web/static/css/main.50f40a4a.chunk.css",
-    "main.js": "/ssmachine-web/static/js/main.08a2c619.chunk.js",
-    "main.js.map": "/ssmachine-web/static/js/main.08a2c619.chunk.js.map",
+    "main.css": "/ssmachine-web/static/css/main.3e85707c.chunk.css",
+    "main.js": "/ssmachine-web/static/js/main.dfd1f678.chunk.js",
+    "main.js.map": "/ssmachine-web/static/js/main.dfd1f678.chunk.js.map",
     "runtime-main.js": "/ssmachine-web/static/js/runtime-main.c12cf11c.js",
     "runtime-main.js.map": "/ssmachine-web/static/js/runtime-main.c12cf11c.js.map",
-    "static/css/2.c95cd976.chunk.css": "/ssmachine-web/static/css/2.c95cd976.chunk.css",
-    "static/js/2.cdf22260.chunk.js": "/ssmachine-web/static/js/2.cdf22260.chunk.js",
-    "static/js/2.cdf22260.chunk.js.map": "/ssmachine-web/static/js/2.cdf22260.chunk.js.map",
+    "static/css/2.2afb2152.chunk.css": "/ssmachine-web/static/css/2.2afb2152.chunk.css",
+    "static/js/2.197ccea8.chunk.js": "/ssmachine-web/static/js/2.197ccea8.chunk.js",
+    "static/js/2.197ccea8.chunk.js.map": "/ssmachine-web/static/js/2.197ccea8.chunk.js.map",
     "index.html": "/ssmachine-web/index.html",
-    "precache-manifest.7a683fa83fad5bcf0ca83d0c5af41ed2.js": "/ssmachine-web/precache-manifest.7a683fa83fad5bcf0ca83d0c5af41ed2.js",
+    "precache-manifest.7fbf8c0e211939a7cb3cef4e21508e59.js": "/ssmachine-web/precache-manifest.7fbf8c0e211939a7cb3cef4e21508e59.js",
     "service-worker.js": "/ssmachine-web/service-worker.js",
-    "static/css/2.c95cd976.chunk.css.map": "/ssmachine-web/static/css/2.c95cd976.chunk.css.map",
-    "static/css/main.50f40a4a.chunk.css.map": "/ssmachine-web/static/css/main.50f40a4a.chunk.css.map",
-    "static/js/2.cdf22260.chunk.js.LICENSE.txt": "/ssmachine-web/static/js/2.cdf22260.chunk.js.LICENSE.txt",
+    "static/css/2.2afb2152.chunk.css.map": "/ssmachine-web/static/css/2.2afb2152.chunk.css.map",
+    "static/css/main.3e85707c.chunk.css.map": "/ssmachine-web/static/css/main.3e85707c.chunk.css.map",
+    "static/js/2.197ccea8.chunk.js.LICENSE.txt": "/ssmachine-web/static/js/2.197ccea8.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/ssmachine-web/static/media/1.7b9e95d8.jpg",
     "static/media/2.jpg": "/ssmachine-web/static/media/2.e3bfb3a9.jpg",
     "static/media/3.jpg": "/ssmachine-web/static/media/3.cb2381cb.jpg",
@@ -42,6 +42,7 @@
     "static/media/logo.jpeg": "/ssmachine-web/static/media/logo.e60fae51.jpeg",
     "static/media/maserati.png": "/ssmachine-web/static/media/maserati.38d65e77.png",
     "static/media/merceded_benz.png": "/ssmachine-web/static/media/merceded_benz.98d64642.png",
+    "static/media/mission.png": "/ssmachine-web/static/media/mission.db6dcdcd.png",
     "static/media/mitsubishi.png": "/ssmachine-web/static/media/mitsubishi.d4c5a4bf.png",
     "static/media/nissan.png": "/ssmachine-web/static/media/nissan.8ee6e0c3.png",
     "static/media/porsche.png": "/ssmachine-web/static/media/porsche.dc0000fd.png",
@@ -50,14 +51,17 @@
     "static/media/slider-img-2.jpg": "/ssmachine-web/static/media/slider-img-2.dea14073.jpg",
     "static/media/slider-img-3.jpg": "/ssmachine-web/static/media/slider-img-3.e93e4144.jpg",
     "static/media/toyota.png": "/ssmachine-web/static/media/toyota.744e8260.png",
+    "static/media/values.png": "/ssmachine-web/static/media/values.4982f99d.png",
+    "static/media/vision.png": "/ssmachine-web/static/media/vision.4f2d3d5c.png",
     "static/media/volvo.png": "/ssmachine-web/static/media/volvo.7957bcd8.png",
-    "static/media/vw.png": "/ssmachine-web/static/media/vw.e04fcb2a.png"
+    "static/media/vw.png": "/ssmachine-web/static/media/vw.e04fcb2a.png",
+    "static/media/why-img.jpg": "/ssmachine-web/static/media/why-img.55a8195c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c12cf11c.js",
-    "static/css/2.c95cd976.chunk.css",
-    "static/js/2.cdf22260.chunk.js",
-    "static/css/main.50f40a4a.chunk.css",
-    "static/js/main.08a2c619.chunk.js"
+    "static/css/2.2afb2152.chunk.css",
+    "static/js/2.197ccea8.chunk.js",
+    "static/css/main.3e85707c.chunk.css",
+    "static/js/main.dfd1f678.chunk.js"
   ]
 }

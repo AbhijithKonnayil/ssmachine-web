@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99a26abdf4812f30bba77ac06ee889d7",
+    "revision": "69eee8cb02d3b179980aa5c53294b219",
     "url": "/ssmachine-web/index.html"
   },
   {
-    "revision": "3a05e4a10dd0752eea24",
-    "url": "/ssmachine-web/static/css/2.c95cd976.chunk.css"
+    "revision": "77acf9d8bcae53183424",
+    "url": "/ssmachine-web/static/css/2.2afb2152.chunk.css"
   },
   {
-    "revision": "043cbfb2f302726d9309",
-    "url": "/ssmachine-web/static/css/main.50f40a4a.chunk.css"
+    "revision": "b5616d4bca7d827aa814",
+    "url": "/ssmachine-web/static/css/main.3e85707c.chunk.css"
   },
   {
-    "revision": "3a05e4a10dd0752eea24",
-    "url": "/ssmachine-web/static/js/2.cdf22260.chunk.js"
+    "revision": "77acf9d8bcae53183424",
+    "url": "/ssmachine-web/static/js/2.197ccea8.chunk.js"
   },
   {
-    "revision": "94b29ac6d0ec426932e82da99c88b81c",
-    "url": "/ssmachine-web/static/js/2.cdf22260.chunk.js.LICENSE.txt"
+    "revision": "75bf2bd1f41b03d5495f9e4d33fd53f3",
+    "url": "/ssmachine-web/static/js/2.197ccea8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "043cbfb2f302726d9309",
-    "url": "/ssmachine-web/static/js/main.08a2c619.chunk.js"
+    "revision": "b5616d4bca7d827aa814",
+    "url": "/ssmachine-web/static/js/main.dfd1f678.chunk.js"
   },
   {
     "revision": "a68d9a2783486d64e6cf",
@@ -156,6 +156,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ssmachine-web/static/media/merceded_benz.98d64642.png"
   },
   {
+    "revision": "db6dcdcdb19401d2319ab3b5c12171fd",
+    "url": "/ssmachine-web/static/media/mission.db6dcdcd.png"
+  },
+  {
     "revision": "d4c5a4bf77473c908daef98e0585f579",
     "url": "/ssmachine-web/static/media/mitsubishi.d4c5a4bf.png"
   },
@@ -188,11 +192,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ssmachine-web/static/media/toyota.744e8260.png"
   },
   {
+    "revision": "4982f99d41c2a47e361147cd4181c349",
+    "url": "/ssmachine-web/static/media/values.4982f99d.png"
+  },
+  {
+    "revision": "4f2d3d5cd5b592ca7494f0753b3e02ad",
+    "url": "/ssmachine-web/static/media/vision.4f2d3d5c.png"
+  },
+  {
     "revision": "7957bcd86d071a2079793fd08f5545df",
     "url": "/ssmachine-web/static/media/volvo.7957bcd8.png"
   },
   {
     "revision": "e04fcb2a3460650bf17ea88d1bb451ae",
     "url": "/ssmachine-web/static/media/vw.e04fcb2a.png"
+  },
+  {
+    "revision": "55a8195c621d015b34723f1c0bfcdb8a",
+    "url": "/ssmachine-web/static/media/why-img.55a8195c.jpg"
   }
 ]);
