@@ -8,6 +8,7 @@ import ServiceImage6 from '../img/service/6.jpg';
 import '../css/service-section.css';
 import ServiceItemServicePage from './ServiceItemServicePage';
 
+
 class ServiceSectionServicePage extends Component {
     render() {
         return (
@@ -15,13 +16,14 @@ class ServiceSectionServicePage extends Component {
                 <div class="container">
                     <div class="row">
                         <ServiceItemServicePage
+                        id="service1"
                             image={ServiceImage6}
                             title = "Mechanical Repair"
                             description="The heart and soul of your car, truck or SUV is the engine; a complex system as vital to your vehicle as your heart is to you. Even with excellent maintenance, engines will still fail. Those who gave their vehicles excellent regular maintenance will usually get a significantly higher number of miles out of their engine compared to those who didn’t but the sad truth is that anything with moving parts is doomed to fail.
                             Seven SEas Automobiles has highly trained mechanics that are familiar with all types of engine repairs. They can inspect, diagnose problems, discuss the repairs required with you and then fix your engine issues.
                             "/>
-
                         <ServiceItemServicePage
+                        id="service2"
                             image={ServiceImage1}
                             title = "Car Dent Repair"
                             description="Unfortunately, accidents happen that can cause damage to the vehicle in terms of paint damage and dent. Paint scratches and dents shows detract from the appearance of your car.
@@ -31,6 +33,7 @@ class ServiceSectionServicePage extends Component {
                             Our end to end denting and painting solutions include car scratch repair, car paint repair, car bumper repair and more. We have trained technicians and equipment technology to restore your paint jobs original look and feel with high quality and cost effective. If you wish to get rid of those scratches and dents on your car, call us today."/>
 
                         <ServiceItemServicePage
+                        id="service3"
                             image={ServiceImage2}
                             title = "Painting"
                             description="
@@ -40,6 +43,7 @@ All our painters are professionally trained. Plus, we provide our painters with 
                             "/>
 
                         <ServiceItemServicePage
+                        id="service4"
                             image={ServiceImage3}
                             title = "Car Detailing"
                             description="
@@ -54,6 +58,7 @@ All our painters are professionally trained. Plus, we provide our painters with 
                             "/>
 
                         <ServiceItemServicePage
+                        id="service5"
                             image={ServiceImage4}
                             title = "Electric Repair"
                             description="
@@ -68,6 +73,7 @@ All our painters are professionally trained. Plus, we provide our painters with 
                             "/>
                         
                         <ServiceItemServicePage
+                        id="service6"
                             image={ServiceImage5}
                             title = "Air Conditioning"
                             description="Car air conditioners not only keep you cool during summer, but can also remove humidityair-condition-flush from the cabin, which can be handy with the winter to counteract a foggy windscreen.

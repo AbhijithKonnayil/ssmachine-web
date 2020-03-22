@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/service-section.css';
-
+import { NavLink } from 'react-router-dom';
 class ServiceItem extends Component {
     render() {
         return (
@@ -11,7 +11,7 @@ class ServiceItem extends Component {
                                 </div>
                                 <h3>{this.props.title}</h3>
                                 <p>{this.props.description}</p>
-                                <a href="#" class="read-more">Read More</a>
+                                <NavLink to={"/service/" + this.props.id} class="read-more">Read More</NavLink>
                             </div>
                         </div>
         );

@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
+
 
 class ServiceItemServicePage extends Component {
     render() {
         return (
+            <ScrollableAnchor id={this.props.id}>
             <div className="">
                 <div className="col-xl-6 col-lg-6 float-left align-items-center">
                     <div class="single-service text-left">
@@ -20,7 +23,7 @@ class ServiceItemServicePage extends Component {
                 </div>
 
             </div>
-
+            </ScrollableAnchor>
 
         );
     }
