@@ -38,7 +38,7 @@
 }
 @media (max-width: 767px) {
   .slider-area .single-slider .slider-content {
-    padding: 73px 40px 100px 40px;
+    padding: 50px 40px 50px 40px;
   }
 }
 .slider-area .single-slider .slider-content p {
@@ -150,7 +150,7 @@
 }
 @media (max-width: 767px) {
   .slider-area .single-slider .slider-content-default {
-    padding: 73px 40px 100px 40px;
+    padding: 20px 40px 20px 40px;
   }
 }
 
@@ -164,7 +164,7 @@
 }
 @media (max-width: 767px) {
   .slider-area .single-slider .slider-content-default h3 {
-    font-size: 25px;
+    font-size: 50px;
     line-height: 45px;
     margin-bottom: 10px;
   }
