@@ -3,6 +3,16 @@ import Nav from "./Nav.js";
 import "../css/header.css";
 import "../css/nav.css";
 import logo from "../img/logo.png";
+import { rollIn as menuAnimation } from 'react-animations';
+import Radium, {StyleRoot} from 'radium';
+
+const styles = {
+  menuAnimation: {
+    animation: 'x 1s',
+    animationName: Radium.keyframes(menuAnimation, 'menuAnimation')
+  }
+}
+
 class Header extends Component {
   state = {
     toggle: true
@@ -42,7 +52,7 @@ class Header extends Component {
         </div>
         <div className={
             this.state.toggle ? "d-block main-menu d-md-none" : "d-none"
-          }>
+          } >
           <Nav />
         </div>
       </header>
