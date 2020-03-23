@@ -15,7 +15,7 @@ const styles = {
 
 class Header extends Component {
   state = {
-    toggle: true
+    toggle: false
   };
   Toggle = () => {
     this.setState({ toggle: !this.state.toggle });
