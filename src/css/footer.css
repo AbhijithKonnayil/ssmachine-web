@@ -33,7 +33,7 @@
     font-size: 18px;
   }
   .footer-area .single-footer-widget .social-links ul li a:hover {
-    color: #ff5e13;
+    color:rgb(0, 96, 172)
   }
   .footer-area .single-footer-widget .office-location ul li{
       list-style: none;
@@ -85,7 +85,7 @@
     font-size: 16px;
   }
   .footer-area .single-footer-widget ul li a:hover {
-    color: #ff5e13;
+    color: rgb(0, 96, 172);
   }
   .footer-area .single-footer-widget .form-wrap {
     margin-top: 25px;
@@ -307,7 +307,7 @@
     }
   }
   .footer-area .copyright_part_text a {
-    color: #ff5e13;
+    color: rgb(0, 96, 172);
   }
   .footer-area .input-group {
     border: 1px solid #45556a;

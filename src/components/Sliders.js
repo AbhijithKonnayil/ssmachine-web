@@ -33,7 +33,7 @@ export default class Sliders extends Component {
           <div className="container">
             <div className="row">
               <div className="col-xl-7  col-lg-7">
-                <div className="slider-content">
+                <div className="slider-content-default">
                   <h3>{this.props.pagename}</h3>
                 </div>
               </div>
@@ -44,6 +44,7 @@ export default class Sliders extends Component {
     );
   }
 }
+
 class SlidersHome extends Component {
   render() {
     return (
@@ -51,7 +52,7 @@ class SlidersHome extends Component {
         <Slide {...properties}>
           <Slider
             index="0"
-            text1="One stop solutin for all your"
+            text1="One stop solution for all your"
             text2=" Automobile Service needs"
           />
           <Slider

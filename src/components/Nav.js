@@ -30,11 +30,6 @@ class Nav extends Component {
                 <NavLink to="/service">Services</NavLink>
               </li>
               <li>
-                <a href="#">
-                  Enquiry<i className="ti-angle-down"></i>
-                </a>
-              </li>
-              <li>
                 <NavLink to="/contact" activeClassName="active">
                   Contact
                 </NavLink>
