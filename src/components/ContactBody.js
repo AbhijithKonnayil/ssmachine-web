@@ -1,6 +1,6 @@
 import React, { Component } from "react";
+
 import "../css/contact.css";
-import axios from "axios";
 
 class ContactBody extends Component {
   constructor(props) {

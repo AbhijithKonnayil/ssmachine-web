@@ -1,7 +1,10 @@
 import React, { Component } from "react";
-import "../css/about-section.css";
-import aboutImage from "../img/about.png";
 import { NavLink } from "react-router-dom";
+
+import aboutImage from "../img/about.png";
+
+import "../css/about-section.css";
+
 class AboutSection extends Component {
   render() {
     return (

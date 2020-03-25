@@ -1,10 +1,13 @@
 import React, { Component } from "react";
-/* import '../css/about-section.css'; */
-import "../css/common.css";
+
 import aboutImage from "../img/about.png";
 import visionImage from "../img/icons/vision.png";
 import missionImage from "../img/icons/mission.png";
 import valuesImage from "../img/icons/values.png";
+
+import '../css/about-section.css';
+import "../css/common.css";
+
 class AboutSectionAboutPage extends Component {
   render() {
     return (

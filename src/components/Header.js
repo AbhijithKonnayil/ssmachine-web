@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import Nav from "./Nav.js";
-import "../css/header.css";
-import "../css/nav.css";
 import logo from "../img/logo.png";
 import { rollIn as menuAnimation } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
+
+import "../css/header.css";
+import "../css/nav.css";
 
 const styles = {
   menuAnimation: {
