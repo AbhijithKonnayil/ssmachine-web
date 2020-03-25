@@ -52,8 +52,7 @@ class SlidersHome extends Component {
         <Slide {...properties}>
           <Slider
             index="0"
-            text1="One stop solution for all your"
-            text2=" Automobile Service needs"
+            text2="One stop solution for all your Automobile Service needs"
           />
           <Slider
             index="1"

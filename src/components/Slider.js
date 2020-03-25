@@ -14,9 +14,9 @@ class Slider extends Component {
         style={{
           backgroundImage: "url(" + slideImages[this.props.index] + ")"
         }}>
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
-            <div className="col-xl-7 offset-xl-1 col-lg-7">
+            <div className="col-xl-12 col-lg-12">
               <div className="slider-content">
                 <p>{this.props.text1}</p>
                 <h3>{this.props.text2}</h3>

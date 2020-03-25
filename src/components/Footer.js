@@ -71,7 +71,7 @@ class Footer extends Component {
               <div class="copyright_part_text text-center">
                 <p class="footer-text m-0">
                   Copyright &copy;{new Date().getFullYear()} All rights reserved
-                  | Designed by by{" "}
+                  | Designed by {" "}
                   <a
                     href="https://www.facebook.com/abhijith.konnayil"
                     target="_blank"

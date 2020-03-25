@@ -1,5 +1,6 @@
 .slider-area{
   margin-bottom: 50px;
+
 }
 .slider-area .single-slider {
   height: 760px;
@@ -7,7 +8,6 @@
   background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -19,26 +19,18 @@
     height: 600px;
   }
 }
-.slider-area .single-slider::before {
-  position: absolute;
-  content: "";
-  background: #020c26;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  opacity: 0.2;
-}
 .slider-area .single-slider .slider-content {
-  background: rgba(255, 255, 255, 0.8);
-  padding: 73px 56px 73px 50px;
-  position: relative;
+  background: linear-gradient(121deg, rgba(1,108,190,1) 0%, rgba(3,89,154,1) 100%);
+  position: absolute;
+  left: 0;
+  bottom: 10;
+  width: 100%;
   z-index: 9;
   display: inline-block;
 }
 @media (max-width: 767px) {
   .slider-area .single-slider .slider-content {
-    padding: 50px 40px 50px 40px;
+    padding: 10px;
   }
 }
 .slider-area .single-slider .slider-content p {
@@ -51,29 +43,13 @@
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   font-size: 60px;
-  color: #020c26;
-  line-height: 72px;
-  margin-bottom: 28px;
+  color: #ffffff;
 }
 @media (max-width: 767px) {
   .slider-area .single-slider .slider-content h3 {
     font-size: 25px;
     line-height: 45px;
     margin-bottom: 10px;
-  }
-}
-.slider-area .single-slider .slider-content a i {
-  font-size: 14px;
-  padding-left: 5px;
-}
-.slider-area .single-slider .slider-content .slider-btn {
-  position: absolute;
-  bottom: 0;
-  left: 55px;
-}
-@media (max-width: 767px) {
-  .slider-area .single-slider .slider-content .slider-btn {
-    left: 40px;
   }
 }
 .slider-area .slider-active .owl-dots {
@@ -142,7 +118,7 @@
 }
 
 .slider-area .single-slider .slider-content-default {
-  background: rgba(255, 255, 255,0.9);
+  background: linear-gradient(121deg, rgba(1,108,190,1) 0%, rgba(3,89,154,1) 100%);
   padding: 30px 50px 0px;
   position: relative;
   z-index: 9;
@@ -158,7 +134,7 @@
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   font-size: 60px;
-  color: rgb(0, 96, 172);
+  color: #ffffff;
   line-height: 72px;
   margin-bottom: 28px;
 }
